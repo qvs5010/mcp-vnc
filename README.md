@@ -1,25 +1,33 @@
 # 💻 mcp-vnc
 
+<p align="center">
+  <a href="https://desktop.wi360.app/">
+    <img src=".github/wi360DesktopLogoTransCropped.png" alt="WI360 Desktop" width="140">
+  </a>
+</p>
+
 [![Node.js Version](https://img.shields.io/badge/node-%3E%3D22.0.0-brightgreen)](https://nodejs.org)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
-[![npm version](https://badge.fury.io/js/@hrrrsn%2Fmcp-vnc.svg)](https://badge.fury.io/js/@hrrrsn%2Fmcp-vnc)
+[![GitHub fork](https://img.shields.io/badge/GitHub-qvs5010%2Fmcp--vnc-blue?logo=github)](https://github.com/qvs5010/mcp-vnc)
 
 A [Model Context Protocol (MCP)](https://modelcontextprotocol.io/introduction) server that enables AI agents to remotely control Windows, Linux, macOS or anything else that can run a VNC server (don't worry, it's probably fine).
+
+Tested with [WI360 Desktop](https://desktop.wi360.app/).
 
 ![Screenshot](.github/screenshot.png)
 
 ## 🚀 Quick Start
 
-### Install from NPM
+### Install from GitHub
 
 ```bash
-npm install -g @hrrrsn/mcp-vnc
+npm install -g github:qvs5010/mcp-vnc
 ```
 
 ### Install from Source
 
 ```bash
-git clone https://github.com/hrrrsn/mcp-vnc
+git clone https://github.com/qvs5010/mcp-vnc
 cd mcp-vnc
 npm install
 npm run build
@@ -36,7 +44,7 @@ npm run build
 
 2. Add the following configuration:
 
-**Using NPM Install:**
+**Using GitHub Install:**
 ```json
 {
   "mcpServers": {
